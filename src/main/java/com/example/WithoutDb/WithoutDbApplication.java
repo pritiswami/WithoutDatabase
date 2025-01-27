@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class WithoutDbApplication {
 
 
-	@GetMapping("hello")
+	@GetMapping("/hello")
 	public String helloWorld()
 	{
 		return "welcome in pune";
